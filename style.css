@@ -84,3 +84,27 @@ body{
     width: 350px;
     height: 280px;
 }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card h2 {
+    color: var(--Very-Dark-Blue);
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.card p {
+    color: var(--Grayish-Blue);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.card img {
+    width: 64px;
+    align-self: flex-end;
+    margin-top: auto;
+}
